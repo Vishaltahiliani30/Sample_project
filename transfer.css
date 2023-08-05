@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(110deg, rgba(117,201,183,1), rgba(171,214,153,1));
+}
+div{
+    margin: 13% 0 0 35%;
+}
+fieldset{
+    width: 40%;
+    border-color: rgb(76, 75, 75);
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 10px 15px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+}
+input[type="submit"]{
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(209, 209, 209);
+}
+.message{
+    color: red;
+    margin: 10px 0 0 35%;
+}
